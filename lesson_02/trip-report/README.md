@@ -52,3 +52,4 @@ python -m unittest discover -s tests -v
 Папку скопировал без `.venv` в отдельный каталог. Там снова выполнил `py -m venv .venv` и `pip install -r requirements.txt`.
 
 `python -m app.main` напечатал те же числа: 7900, 790.00, день 2 и 2700, еда 24.87 %, жильё 68.35 %. `python -m unittest discover -s tests -v` - 9 тестов, все прошли.
+

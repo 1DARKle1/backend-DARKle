@@ -56,7 +56,7 @@ Success: no issues found in 1 source file
 | после `services` | Found 1 error in 1 file (checked 15 source files) |
 | после `ui` | Success: no issues found in 15 source files |
 
-Модуль до и после — `app/services/calculator.py`:
+Модуль до и после - `app/services/calculator.py`:
 
 ```python
 def calculate_average(grades):

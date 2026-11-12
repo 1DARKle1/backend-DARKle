@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: lesson_08      # 2. команды run — из папки проекта
+        working-directory: lesson_08      # 2. команды run - из папки проекта
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7

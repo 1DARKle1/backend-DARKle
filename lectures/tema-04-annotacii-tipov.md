@@ -4,7 +4,7 @@
 
 **Глава 4.2:** https://algorthimization-course-vvodnoe.vercel.app/mdk0101-razrabotka-modulei/lessons/04-docstrings-i-dokumentaciya/02-tipy-v-annotaciyah.html
 
-**Файлы занятия:** [materials/tema-04-annotacii-tipov](../materials/tema-04-annotacii-tipov/) —
+**Файлы занятия:** [materials/tema-04-annotacii-tipov](../materials/tema-04-annotacii-tipov/) -
 проект «Отчёт кафе» с аннотациями и без них.
 
 ## Содержание лекции
@@ -13,7 +13,7 @@
 
 ### 4.1 Что такое аннотация типа
 
-**Аннотация типа** — запись в коде, которая сообщает, значение какого типа
+**Аннотация типа** - запись в коде, которая сообщает, значение какого типа
 ожидается в параметре, переменной или результате функции.
 
 ```python
@@ -25,8 +25,8 @@ totals: dict[str, int] = {}
 
 | Где | Запись |
 |---|---|
-| параметр | `text: str`, со значением по умолчанию — `width: int = 40` |
-| результат | `-> str`; функция ничего не возвращает — `-> None` |
+| параметр | `text: str`, со значением по умолчанию - `width: int = 40` |
+| результат | `-> str`; функция ничего не возвращает - `-> None` |
 | переменная, атрибут | `totals: dict[str, int] = {}`, `self.orders: list[Order] = []` |
 | метод | `def add(self, order: Order) -> None`; `self` не аннотируют |
 
@@ -46,8 +46,8 @@ totals: dict[str, int] = {}
 | несколько типов | `int \| str` |
 | функция-аргумент | `Callable[[Order], int]` из `collections.abc` |
 | итератор | `Iterator[dict[str, str]]` |
-| псевдоним | `type Kopeks = int` — для проверки это тот же `int` |
-| любой тип | `Any` — проверка для значения выключена |
+| псевдоним | `type Kopeks = int` - для проверки это тот же `int` |
+| любой тип | `Any` - проверка для значения выключена |
 
 ## Что делали на занятии
 
@@ -63,5 +63,5 @@ totals: dict[str, int] = {}
 
 ## Документация
 
-- [typing — поддержка аннотаций типов](https://docs.python.org/3/library/typing.html)
+- [typing - поддержка аннотаций типов](https://docs.python.org/3/library/typing.html)
 - [collections.abc](https://docs.python.org/3/library/collections.abc.html)

@@ -4,7 +4,7 @@ NAME
     app.services.calculator - Расчёты по списку оценок.
 
 DESCRIPTION
-    Здесь нет чтения файлов и печати. Пустой список — ошибка вызова.
+    Здесь нет чтения файлов и печати. Пустой список - ошибка вызова.
 
 FUNCTIONS
     calculate_average(values: list[int]) -> float

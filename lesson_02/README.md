@@ -5,7 +5,7 @@
 
 Программа считает среднюю, минимальную и максимальную оценку и печатает отчёт через Rich.
 
-Папка `trip/` в этом же занятии — отдельная работа из `homework_02.md`: расходы в поездке. Ниже описан проект Student Tools из главы 2.8 сайта. Корень проекта — эта папка: `app/` лежит прямо в `lesson_02`.
+Папка `trip/` в этом же занятии - отдельная работа из `homework_02.md`: расходы в поездке. Ниже описан проект Student Tools из главы 2.8 сайта. Корень проекта - эта папка: `app/` лежит прямо в `lesson_02`.
 
 ## Версия Python
 
@@ -24,7 +24,7 @@ C:\Users\voerc\Desktop\backend-DARKle\lesson_02\.venv\Scripts\python.exe
 ```text
 lesson_02/
 ├── app/main.py                  соединяет расчёты, формат и вывод
-├── app/services/calculator.py   средняя, минимум и максимум; пустой список — ValueError
+├── app/services/calculator.py   средняя, минимум и максимум; пустой список - ValueError
 ├── app/utils/formatter.py       текст отчёта, без вычислений
 ├── tests/test_calculator.py     три исходных теста и четыре новых
 ├── requirements.txt             версии зависимостей

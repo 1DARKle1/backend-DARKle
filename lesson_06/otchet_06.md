@@ -41,7 +41,7 @@ Pylance называет тип переданного значения `Literal
 
 ## 4. Моя ошибка и панель Problems
 
-Мой вариант — 1. В `proba.py` добавлен вызов `name = normalize_name(42)`, он стоит
+Мой вариант - 1. В `proba.py` добавлен вызов `name = normalize_name(42)`, он стоит
 в строке 6. Функция объявлена в модуле `app.utils.text`, её подпись:
 `def normalize_name(name: str) -> str`.
 

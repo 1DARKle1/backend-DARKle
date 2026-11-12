@@ -4,7 +4,7 @@
 
 **Конспект:** [lectures/tema-02-struktura-proekta.md](../../lectures/tema-02-struktura-proekta.md)
 
-Домашнее задание темы — в папке [`lesson_02`](../../lesson_02/README.md). Файлы ниже — примеры из книги на проекте Student Tools.
+Домашнее задание темы - в папке [`lesson_02`](../../lesson_02/README.md). Файлы ниже - примеры из книги на проекте Student Tools.
 
 | Файл | Что это |
 |---|---|

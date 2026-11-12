@@ -9,7 +9,7 @@
 | Файл | Что это |
 |---|---|
 | [`zadanie-1-ierarhiya-proekta.md`](zadanie-1-ierarhiya-proekta.md) | условие работы 1 |
-| [`praktikum-1-cafe-report.zip`](praktikum-1-cafe-report.zip) | архив проекта cafe-report для работы 1; оставлен архивом, потому что лишние файлы в нём — часть задания |
+| [`praktikum-1-cafe-report.zip`](praktikum-1-cafe-report.zip) | архив проекта cafe-report для работы 1; оставлен архивом, потому что лишние файлы в нём - часть задания |
 | [`etalon-1-cafe-report/`](etalon-1-cafe-report/) | эталон работы 1 для сверки после собственной попытки |
 | [`zadanie-2-razdelenie-na-moduli.md`](zadanie-2-razdelenie-na-moduli.md) | условие работы 2 |
 | [`praktikum-2-text-kit/`](praktikum-2-text-kit/) | проект text-kit для работы 2: `main.py`, тесты, `ЗАДАНИЕ.md` |

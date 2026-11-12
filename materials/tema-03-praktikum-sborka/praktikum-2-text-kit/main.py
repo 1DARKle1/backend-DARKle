@@ -143,7 +143,7 @@ def days_between(first: date, second: date) -> int:
 
 
 def password_problems(value: str) -> list[str]:
-    """Возвращает список замечаний к паролю. Пустой список — пароль подходит."""
+    """Возвращает список замечаний к паролю. Пустой список - пароль подходит."""
     problems = []
     if len(value) < 8:
         problems.append("короче восьми символов")

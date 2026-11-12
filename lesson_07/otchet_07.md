@@ -21,7 +21,7 @@
 
 ![settings.json с настройками генератора](img/07-02-settings.png)
 
-Формат заготовки — `google-notypes`. С проверкой Ruff он согласуется, потому что
+Формат заготовки - `google-notypes`. С проверкой Ruff он согласуется, потому что
 в `pyproject.toml` записано `convention = "google"`. Настройка
 `startOnNewLine` оставлена `false`: иначе Ruff выдаст замечание `D212`.
 
@@ -43,7 +43,7 @@
 
 ## 5. Сниппет
 
-Сниппет записан в файл `.vscode/python.code-snippets`. Его название — «Докстринг в формате Google», слово для вызова —
+Сниппет записан в файл `.vscode/python.code-snippets`. Его название - «Докстринг в формате Google», слово для вызова -
 `dsg`. Им вставлен докстринг функции `load_orders`.
 
 ![Список подсказок со сниппетом dsg](img/07-05-snippet.png)
@@ -63,8 +63,8 @@
 
 ## 7. Замечания в редакторе
 
-Модуль моего варианта — `app/utils/formatter.py`. В панели Problems у него 3 замечания.
-Источник у каждого замечания — `Ruff`.
+Модуль моего варианта - `app/utils/formatter.py`. В панели Problems у него 3 замечания.
+Источник у каждого замечания - `Ruff`.
 
 ![Панель Problems с замечаниями Ruff](img/07-07-problems.png)
 
@@ -88,7 +88,7 @@
 
 ## 10. Модуль моего варианта
 
-До работы проверка модуля `app/utils/formatter.py` выводила `Found 3 errors.`, после —
+До работы проверка модуля `app/utils/formatter.py` выводила `Found 3 errors.`, после -
 `All checks passed!`. В пакете `app` осталось `Found 26 errors.`
 
 ![Модуль варианта без замечаний](img/07-10-variant.png)

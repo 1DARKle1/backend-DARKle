@@ -19,9 +19,9 @@
 Что проверить
 -------------
 
-- ``python -m pytest -v`` — тесты
-- ``mypy app`` — аннотации
-- ``ruff check app`` — докстринги
+- ``python -m pytest -v`` - тесты
+- ``mypy app`` - аннотации
+- ``ruff check app`` - докстринги
 
 Средняя оценка считается функцией
 :func:`app.services.calculator.calculate_average`.

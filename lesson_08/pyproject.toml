@@ -1,0 +1,11 @@
+[tool.mypy]
+disallow_untyped_defs = true
+
+[tool.ruff.lint]
+select = ["D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]

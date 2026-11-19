@@ -12,7 +12,7 @@
 На компьютере установлен Python 3.13.7. В курсе указан Python 3.12, отдельной установки 3.12 нет.
 
 ```text
-C:\Users\voerc\Desktop\backend-DARKle\lesson_04\.venv\Scripts\python.exe
+C:\Users\voerc\Desktop\backend-DARKle\lesson_08\.venv\Scripts\python.exe
 ```
 
 ## Структура
@@ -30,7 +30,7 @@ docs/help.txt                 вывод help() по двум модулям
 
 ## Команды
 
-Windows, PowerShell, из папки `lesson_04`:
+Windows, PowerShell, из папки `lesson_08`:
 
 ```powershell
 py -m venv .venv
@@ -72,7 +72,9 @@ All checks passed!
 
 ## Документация
 
-Сайт собран локально темой Furo. На GitHub Pages он пока не опубликован: репозиторий с этого компьютера не отправлялся. Снимок главной страницы - `docs/home.png`.
+Сайт собран локально темой Furo. Снимок главной страницы - `docs/home.png`.
+
+Публичный адрес пока не открывается. В GitHub Actions job `build` проходит, job `deploy` отвечает `Failed to create deployment (status: 404)`: в настройках репозитория не выбран источник Pages «GitHub Actions». После включения (Settings → Pages → Build and deployment → Source: GitHub Actions) тот же workflow публикует сайт, и адрес нужно вписать сюда.
 
 Сборка из папки `lesson_08`:
 

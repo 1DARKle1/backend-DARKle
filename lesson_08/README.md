@@ -72,9 +72,11 @@ All checks passed!
 
 ## Документация
 
-Сайт собран локально темой Furo. Снимок главной страницы - `docs/home.png`.
+Сайт собран темой Furo и опубликован на GitHub Pages:
 
-Публичный адрес пока не открывается. В GitHub Actions job `build` проходит, job `deploy` отвечает `Failed to create deployment (status: 404)`: в настройках репозитория не выбран источник Pages «GitHub Actions». После включения (Settings → Pages → Build and deployment → Source: GitHub Actions) тот же workflow публикует сайт, и адрес нужно вписать сюда.
+https://1darkle1.github.io/backend-DARKle/
+
+Снимок главной страницы до публикации - `docs/home.png`. Последний запуск workflow «Документация» зелёный: job `build` и job `deploy` завершились успешно.
 
 Сборка из папки `lesson_08`:
 
